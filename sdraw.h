@@ -4,12 +4,20 @@
 #include "swipe.h"
 #include "sphysics.h"
 
-//-----Window Properties-----/
+//-----Window-----/
 typedef struct Resolution
 {
 	int width;
 	int height;
 } Resolution;
+
+typedef Struct Window
+{
+	char * render;
+	Resolution res;
+} Window;
+
+extern Window window;
 
 //-----Drawing Porperties-----//
 typedef struct Color
@@ -81,7 +89,9 @@ typedef DCircle DCirc; // DCircle Alias
 //-----Function Declaration-----//
 //-----Drawing Functions-----//
 // Window //
-DrawWindow(Resolution res);
+void InitWindow(Window *window);
+void UpdateWindow(Window *window);
+void DrawWindow(Window window);
 
 // Objects //
 void DrawPoint(DPoint point); // Draws a Point on the window
