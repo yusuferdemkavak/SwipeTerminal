@@ -11,7 +11,7 @@ typedef struct Resolution
 	int height;
 } Resolution;
 
-typedef Struct Window
+typedef struct Window
 {
 	char * render;
 	Resolution res;

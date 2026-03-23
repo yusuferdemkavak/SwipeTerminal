@@ -8,5 +8,7 @@
 #include <time.h>
 #include <math.h>
 #include <ncurses.h>
+#include "sdraw.h"
+#include "sphysics.h"
 
 #endif
