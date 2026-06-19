@@ -1,4 +1,4 @@
-#include "swipe.h"
+#include "sdraw.h"
 
 // NOTE: The main function is used
 // for testing functions from the libraries.
@@ -12,7 +12,7 @@ int main(void)
 
 	InitWindow(&MainWindow);
 
-	printf("%s", MainWindow.render);
+	//printf("%s", MainWindow.render);
 }
 
 // TO DO:

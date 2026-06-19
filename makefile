@@ -3,7 +3,7 @@ CFLAGS = -Wall -std=c99
 LIBS = -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
 
 TARGET = SwipeTerminal
-SRC = draw.c
+SRC = sphysics.c sdraw.c main.c
 
 all:
 	$(CC) $(SRC) -o $(TARGET) $(CFLAGS) $(LIBS)
