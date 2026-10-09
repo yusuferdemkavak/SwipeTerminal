@@ -1,7 +1,7 @@
-#ifndef SDRAW_H
-#define SDRAW_H
+#ifndef S_RENDER_H
+#define S_RENDER_H
 
-#include "sphysics.h"
+#include "s_physics.h"
 
 //-----Window-----/
 typedef struct Resolution

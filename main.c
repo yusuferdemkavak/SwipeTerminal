@@ -1,6 +1,6 @@
-#include "sdraw.h"
+#include "s_render.h"
 
-// NOTE: The main function is used
+// NOTE: The main function is currently used
 // for testing functions from the libraries.
 // This is not the program entry point.
 int main(void)
@@ -15,5 +15,5 @@ int main(void)
 	//printf("%s", MainWindow.render);
 }
 
-// TO DO:
+// TODO:
 // Setup UI with ncurses

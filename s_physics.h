@@ -1,5 +1,5 @@
-#ifndef SPHYSICS_H
-#define SPHYSICS_H
+#ifndef S_PHYSICS_H
+#define S_PHYSICS_H
 
 #include "swipe.h"
 

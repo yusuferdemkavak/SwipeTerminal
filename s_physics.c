@@ -1,5 +1,4 @@
-#include "sphysics.h"
-
+#include "s_physics.h"
 
 // Collision Detection (Identical Objects) //
 bool CheckCollisionPoints(Point point_1, Point point_2)
